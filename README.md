@@ -65,7 +65,7 @@ npm install
 ### 3️⃣ Configure Environment Variables
 Create a `.env` file and add the following:
 ```env
-PORT=5000
+PORT=5500
 MONGO_URI=mongodb+srv://your-db-url
 JWT_SECRET=your-secret-key
 REFRESH_TOKEN_SECRET=your-refresh-secret

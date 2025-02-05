@@ -30,7 +30,8 @@ const assignTask = async (body: any) => {
             dueDate: new Date(body.dueDate),
             status: 'pending'
         }
-        return await new Task(payload).save();
+        await new Task(payload).save();
+        return true
     }
     return 0
 };
