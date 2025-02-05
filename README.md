@@ -65,15 +65,15 @@ npm install
 ### 3️⃣ Configure Environment Variables
 Create a `.env` file and add the following:
 ```env
-PORT=5500
-MONGO_URI='mongodb+srv://arjunviswam82:JxH70fkIZasJHEGy@cluster-1.uvqos.mongodb.net/student-management'
-JWT_SECRET='AKIAYCGS344PHJSHTR6A'
-REFRESH_TOKEN_SECRET='LKKALOKI7ZHTYGPP567BBTPOL'
+PORT=5000
+MONGO_URI=mongodb+srv://your-db-url
+JWT_SECRET=your-secret-key
+REFRESH_TOKEN_SECRET=your-refresh-secret
 ```
 
 ### 4️⃣ Start the Server
 ```sh
-npm run dev  # Starts server in development mode
+npm run start:dev  # Starts server in development mode
 ```
 
 ---
@@ -128,7 +128,7 @@ Authorization: Bearer <your-access-token>
 
 ## 🔒 Authentication & Role-Based Access Control
 - Users must **authenticate** using JWT to access protected routes.
-- Admins can **create tasks**.
+- Admins can **create students and tasks**.
 - Students can **view their assigned tasks**.
 
 ---
