@@ -78,6 +78,12 @@ npm run start:dev  # Starts server in development mode
 
 ---
 
+## **API Documentation**
+
+- **Postman Docs**: [Postman Documentation](https://documenter.getpostman.com/view/17603650/2sAYX6pgvK)
+
+---
+
 ## 📌 API Endpoints
 
 ### 🔹 **Authentication**
